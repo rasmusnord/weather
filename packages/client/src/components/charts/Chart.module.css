@@ -1,0 +1,36 @@
+.container {
+  margin: 1em 0;
+}
+
+.chart {
+  width: 100%;
+  height: 275px;
+  overflow: visible;
+}
+
+.title {
+  font-size: 1em;
+  fill: var(--ink-color);
+}
+
+.line {
+  fill: none;
+  stroke: var(--ink-color);
+  stroke-width: var(--line-width-bold);
+}
+
+.average {
+  fill: none;
+  stroke-dasharray: 5, 5;
+  stroke: var(--ink-color);
+  stroke-width: var(--line-width-bold);
+}
+
+.bars {
+  fill: var(--ink-color);
+}
+
+.xAxisText {
+  transform: translate(-10px, 5px) rotate(-45deg);
+  text-anchor: end;
+}

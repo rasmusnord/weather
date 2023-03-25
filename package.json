@@ -1,0 +1,20 @@
+{
+  "private": "true",
+  "workspaces": [
+    "packages/data",
+    "packages/client"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "prettier": "^2.8.5"
+  }
+}

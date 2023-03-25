@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  @media (--breakpoint-lg) {
+    flex-direction: row;
+  }
+}
+
+.aside {
+  border-bottom: var(--line-width-regular) solid var(--ink-color);
+
+  @media (--breakpoint-lg) {
+    flex: 0 0 300px;
+    border-bottom: 0;
+    border-right: var(--line-width-regular) solid var(--ink-color);
+  }
+
+  & h1 {
+    font-size: 2em;
+    margin: 0 0 1rem 0;
+    color: var(--ink-color);
+    cursor: pointer;
+
+    @media (--breakpoint-sm) {
+      margin-bottom: 1em;
+    }
+  }
+
+  & section {
+    padding: 2em;
+
+    @media (--breakpoint-sm) {
+      padding: 4em;
+    }
+  }
+}
+
+.main {
+  flex: 1 1 auto;
+
+  @media (--breakpoint-lg) {
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  & section {
+    padding: 2em;
+    scroll-snap-align: start;
+    border-bottom: var(--line-width-regular) solid var(--ink-color);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    & h2 {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+
+    @media (--breakpoint-sm) {
+      padding: 4em;
+
+      & h2 {
+        font-size: 2em;
+      }
+    }
+  }
+}

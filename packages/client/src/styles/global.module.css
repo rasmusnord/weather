@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+
+:root {
+  --font-family: Inconsolata, monospace;
+  --paper-color: #c4fcef;
+  --ink-color: #4b4453;
+  --line-width-regular: 1px;
+  --line-width-bold: 0.15em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 90%;
+
+  @media (--breakpoint-sm) {
+    font-size: 100%;
+  }
+}
+
+body,
+svg text {
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: var(--paper-color);
+  color: var(--ink-color);
+  user-select: none;
+}
+
+a,
+a:hover {
+  color: var(--ink-color);
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.toggleGroup {
+  display: flex;
+  margin: 0;
+  gap: 0;
+  user-select: none;
+
+  > * {
+    padding: 0.5em 1em;
+  }
+
+  > input {
+    appearance: none;
+    background: var(--paper-color);
+    color: var(--ink-color);
+    border: var(--line-width-regular) solid var(--ink-color);
+    border-right: 0;
+    flex: 1 1 auto;
+    border-radius: 0;
+    margin: 0;
+    font-size: inherit;
+
+    &:last-child {
+      border-right: var(--line-width-regular) solid var(--ink-color);
+    }
+
+    &.selected {
+      background: var(--ink-color);
+      color: var(--paper-color);
+    }
+  }
+}
