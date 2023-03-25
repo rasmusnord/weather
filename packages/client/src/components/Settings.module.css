@@ -1,0 +1,17 @@
+.settings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2em;
+
+  @media (--breakpoint-lg) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.setting {
+  margin: 1em 0;
+}
+
+.label {
+  margin-bottom: 0.5em;
+}

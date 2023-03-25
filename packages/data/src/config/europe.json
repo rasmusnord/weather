@@ -1,0 +1,354 @@
+[
+  {
+    "country": "Albania",
+    "city": "Tirana",
+    "coordinates": {
+      "lat": 41.33,
+      "lon": 19.82
+    }
+  },
+  {
+    "country": "Andorra",
+    "city": "Andorra la Vella",
+    "coordinates": {
+      "lat": 42.51,
+      "lon": 1.52
+    }
+  },
+  {
+    "country": "Austria",
+    "city": "Vienna",
+    "coordinates": {
+      "lat": 48.21,
+      "lon": 16.38
+    }
+  },
+  {
+    "country": "Belarus",
+    "city": "Minsk",
+    "coordinates": {
+      "lat": 53.9,
+      "lon": 27.56
+    }
+  },
+  {
+    "country": "Belgium",
+    "city": "Brussels",
+    "coordinates": {
+      "lat": 50.85,
+      "lon": 4.35
+    }
+  },
+  {
+    "country": "Bosnia & Herzegovina",
+    "city": "Sarajevo",
+    "coordinates": {
+      "lat": 43.85,
+      "lon": 18.36
+    }
+  },
+  {
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "coordinates": {
+      "lat": 42.7,
+      "lon": 23.32
+    }
+  },
+  {
+    "country": "Croatia",
+    "city": "Zagreb",
+    "coordinates": {
+      "lat": 45.81,
+      "lon": 15.98
+    }
+  },
+  {
+    "country": "Czech Republic",
+    "city": "Prag",
+    "coordinates": {
+      "lat": 50.08,
+      "lon": 14.44
+    }
+  },
+  {
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "coordinates": {
+      "lat": 55.68,
+      "lon": 12.57
+    }
+  },
+  {
+    "country": "Estonia",
+    "city": "Tallin",
+    "coordinates": {
+      "lat": 59.44,
+      "lon": 24.75
+    }
+  },
+  {
+    "country": "Finland",
+    "city": "Helsinki",
+    "coordinates": {
+      "lat": 60.17,
+      "lon": 24.94
+    }
+  },
+  {
+    "country": "France",
+    "city": "Paris",
+    "coordinates": {
+      "lat": 48.86,
+      "lon": 2.35
+    }
+  },
+  {
+    "country": "Germany",
+    "city": "Berlin",
+    "coordinates": {
+      "lat": 52.52,
+      "lon": 13.41
+    }
+  },
+  {
+    "country": "Greece",
+    "city": "Athens",
+    "coordinates": {
+      "lat": 37.98,
+      "lon": 23.72
+    }
+  },
+  {
+    "country": "Holy See",
+    "city": "Vatican City",
+    "coordinates": {
+      "lat": 41.9,
+      "lon": 12.45
+    }
+  },
+  {
+    "country": "Hungary",
+    "city": "Budapest",
+    "coordinates": {
+      "lat": 47.5,
+      "lon": 19.04
+    }
+  },
+  {
+    "country": "Iceland",
+    "city": "Reykjavík",
+    "coordinates": {
+      "lat": 64.13,
+      "lon": -21.94
+    }
+  },
+  {
+    "country": "Ireland",
+    "city": "Dublin",
+    "coordinates": {
+      "lat": 53.33,
+      "lon": -6.25
+    }
+  },
+  {
+    "country": "Italy",
+    "city": "Rome",
+    "coordinates": {
+      "lat": 41.89,
+      "lon": 12.5
+    }
+  },
+  {
+    "country": "Latvia",
+    "city": "Riga",
+    "coordinates": {
+      "lat": 56.95,
+      "lon": 24.1
+    }
+  },
+  {
+    "country": "Liechtenstein",
+    "city": "Vaduz",
+    "coordinates": {
+      "lat": 47.14,
+      "lon": 9.52
+    }
+  },
+  {
+    "country": "Lithuania",
+    "city": "Vilnius",
+    "coordinates": {
+      "lat": 54.69,
+      "lon": 25.28
+    }
+  },
+  {
+    "country": "Luxembourg",
+    "city": "Luxembourg",
+    "coordinates": {
+      "lat": 49.61,
+      "lon": 6.13
+    }
+  },
+  {
+    "country": "Malta",
+    "city": "Valletta",
+    "coordinates": {
+      "lat": 35.9,
+      "lon": 14.51
+    }
+  },
+  {
+    "country": "Moldova",
+    "city": "Chișinău",
+    "coordinates": {
+      "lat": 47.01,
+      "lon": 28.86
+    }
+  },
+  {
+    "country": "Monaco",
+    "city": "Monaco",
+    "coordinates": {
+      "lat": 43.73,
+      "lon": 7.42
+    }
+  },
+  {
+    "country": "Montenegro",
+    "city": "Podgorica",
+    "coordinates": {
+      "lat": 42.44,
+      "lon": 19.26
+    }
+  },
+  {
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "coordinates": {
+      "lat": 52.37,
+      "lon": 4.89
+    }
+  },
+  {
+    "country": "North Macedonia",
+    "city": "Skopje",
+    "coordinates": {
+      "lat": 42,
+      "lon": 21.43
+    }
+  },
+  {
+    "country": "Norway",
+    "city": "Oslo",
+    "coordinates": {
+      "lat": 59.91,
+      "lon": 10.74
+    }
+  },
+  {
+    "country": "Poland",
+    "city": "Warsaw",
+    "coordinates": {
+      "lat": 52.23,
+      "lon": 21.01
+    }
+  },
+  {
+    "country": "Portugal",
+    "city": "Lisbon",
+    "coordinates": {
+      "lat": 38.72,
+      "lon": -9.13
+    }
+  },
+  {
+    "country": "Romania",
+    "city": "Bucharest",
+    "coordinates": {
+      "lat": 44.43,
+      "lon": 26.11
+    }
+  },
+  {
+    "country": "Russia",
+    "city": "Moscow",
+    "coordinates": {
+      "lat": 55.75,
+      "lon": 37.62
+    }
+  },
+  {
+    "country": "San Marino",
+    "city": "City of San Marino",
+    "coordinates": {
+      "lat": 43.94,
+      "lon": 12.45
+    }
+  },
+  {
+    "country": "Serbia",
+    "city": "Belgrade",
+    "coordinates": {
+      "lat": 44.8,
+      "lon": 20.47
+    }
+  },
+  {
+    "country": "Slovakia",
+    "city": "Bratislava",
+    "coordinates": {
+      "lat": 48.15,
+      "lon": 17.11
+    }
+  },
+  {
+    "country": "Slovenia",
+    "city": "Ljubljana",
+    "coordinates": {
+      "lat": 46.05,
+      "lon": 14.51
+    }
+  },
+  {
+    "country": "Spain",
+    "city": "Madrid",
+    "coordinates": {
+      "lat": 40.42,
+      "lon": -3.7
+    }
+  },
+  {
+    "country": "Sweden",
+    "city": "Stockholm",
+    "coordinates": {
+      "lat": 59.33,
+      "lon": 18.07
+    }
+  },
+  {
+    "country": "Switzerland",
+    "city": "Bern",
+    "coordinates": {
+      "lat": 46.95,
+      "lon": 7.45
+    }
+  },
+  {
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "coordinates": {
+      "lat": 50.45,
+      "lon": 30.52
+    }
+  },
+  {
+    "country": "United Kingdom",
+    "city": "London",
+    "coordinates": {
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && tsc && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "rimraf": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

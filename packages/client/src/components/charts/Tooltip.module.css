@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  padding: 0.75em 1em;
+  background: var(--ink-color);
+  color: var(--paper-color);
+
+  &.visible {
+    @media (pointer: fine) {
+      visibility: visible;
+    }
+  }
+}
